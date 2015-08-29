@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D319D05C1B91578A00D0AC51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D319D05B1B91578A00D0AC51 /* main.m */; };
+		D319D05F1B91578A00D0AC51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D319D05E1B91578A00D0AC51 /* AppDelegate.m */; };
+		D319D0621B91578A00D0AC51 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D319D0611B91578A00D0AC51 /* WeatherViewController.m */; };
+		D319D0651B91578A00D0AC51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D319D0631B91578A00D0AC51 /* Main.storyboard */; };
+		D319D0671B91578A00D0AC51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D319D0661B91578A00D0AC51 /* Images.xcassets */; };
+		D319D08A1B9170AB00D0AC51 /* WeatherBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = D319D0891B9170AB00D0AC51 /* WeatherBehavior.m */; };
+		D319D08E1B918C6300D0AC51 /* WeatherSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D319D08D1B918C6300D0AC51 /* WeatherSettingViewController.m */; };
+		D319D0991B91F94600D0AC51 /* BilliardsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D319D0981B91F94600D0AC51 /* BilliardsView.m */; };
+		D319D09C1B91F97B00D0AC51 /* BilliardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D319D09B1B91F97B00D0AC51 /* BilliardsViewController.m */; };
+		D319D0A21B92044400D0AC51 /* BilliardsBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = D319D0A11B92044400D0AC51 /* BilliardsBehavior.m */; };
+		D319D0A91B92C5CA00D0AC51 /* CrazyFruitGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D319D0A81B92C5CA00D0AC51 /* CrazyFruitGameViewController.m */; };
+		D319D0AC1B92D51700D0AC51 /* CrazyFruitGameBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = D319D0AB1B92D51700D0AC51 /* CrazyFruitGameBehavior.m */; };
+		D3293FC41C1D415900740369 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3293FC31C1D415900740369 /* BezierPathView.m */; };
+		D3293FCD1C1D417D00740369 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = D3293FC61C1D417D00740369 /* Animal.m */; };
+		D3293FCE1C1D417D00740369 /* BilliardsBall.m in Sources */ = {isa = PBXBuildFile; fileRef = D3293FC81C1D417D00740369 /* BilliardsBall.m */; };
+		D3293FCF1C1D417D00740369 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = D3293FCA1C1D417D00740369 /* Fruit.m */; };
+		D3293FD01C1D417D00740369 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = D3293FCC1C1D417D00740369 /* Weather.m */; };
+		D3293FD41C1D54AC00740369 /* DynamicAnimationExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3293FD31C1D54AC00740369 /* DynamicAnimationExampleViewController.m */; };
+		D3293FD71C1D639A00740369 /* SwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3293FD61C1D639A00740369 /* SwitchCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D319D0561B91578A00D0AC51 /* DynamicAnimationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicAnimationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D319D05A1B91578A00D0AC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D319D05B1B91578A00D0AC51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D319D05D1B91578A00D0AC51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D319D05E1B91578A00D0AC51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D319D0601B91578A00D0AC51 /* WeatherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		D319D0611B91578A00D0AC51 /* WeatherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		D319D0641B91578A00D0AC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D319D0661B91578A00D0AC51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D319D0861B9160F000D0AC51 /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		D319D0871B91617600D0AC51 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D319D0891B9170AB00D0AC51 /* WeatherBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherBehavior.m; sourceTree = "<group>"; };
+		D319D08C1B918C6300D0AC51 /* WeatherSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherSettingViewController.h; sourceTree = "<group>"; };
+		D319D08D1B918C6300D0AC51 /* WeatherSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherSettingViewController.m; sourceTree = "<group>"; };
+		D319D0971B91F94600D0AC51 /* BilliardsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BilliardsView.h; sourceTree = "<group>"; };
+		D319D0981B91F94600D0AC51 /* BilliardsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BilliardsView.m; sourceTree = "<group>"; };
+		D319D09A1B91F97B00D0AC51 /* BilliardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BilliardsViewController.h; sourceTree = "<group>"; };
+		D319D09B1B91F97B00D0AC51 /* BilliardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BilliardsViewController.m; sourceTree = "<group>"; };
+		D319D0A01B92044400D0AC51 /* BilliardsBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BilliardsBehavior.h; sourceTree = "<group>"; };
+		D319D0A11B92044400D0AC51 /* BilliardsBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BilliardsBehavior.m; sourceTree = "<group>"; };
+		D319D0A71B92C5CA00D0AC51 /* CrazyFruitGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyFruitGameViewController.h; sourceTree = "<group>"; };
+		D319D0A81B92C5CA00D0AC51 /* CrazyFruitGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyFruitGameViewController.m; sourceTree = "<group>"; };
+		D319D0AA1B92D51700D0AC51 /* CrazyFruitGameBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyFruitGameBehavior.h; sourceTree = "<group>"; };
+		D319D0AB1B92D51700D0AC51 /* CrazyFruitGameBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyFruitGameBehavior.m; sourceTree = "<group>"; };
+		D3293FC21C1D415900740369 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		D3293FC31C1D415900740369 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
+		D3293FC51C1D417D00740369 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		D3293FC61C1D417D00740369 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		D3293FC71C1D417D00740369 /* BilliardsBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BilliardsBall.h; sourceTree = "<group>"; };
+		D3293FC81C1D417D00740369 /* BilliardsBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BilliardsBall.m; sourceTree = "<group>"; };
+		D3293FC91C1D417D00740369 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		D3293FCA1C1D417D00740369 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		D3293FCB1C1D417D00740369 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		D3293FCC1C1D417D00740369 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		D3293FD11C1D41A900740369 /* WeatherBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherBehavior.h; sourceTree = "<group>"; };
+		D3293FD21C1D54AC00740369 /* DynamicAnimationExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicAnimationExampleViewController.h; sourceTree = "<group>"; };
+		D3293FD31C1D54AC00740369 /* DynamicAnimationExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicAnimationExampleViewController.m; sourceTree = "<group>"; };
+		D3293FD51C1D639A00740369 /* SwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchCell.h; sourceTree = "<group>"; };
+		D3293FD61C1D639A00740369 /* SwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D319D0531B91578A00D0AC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D319D04D1B91578A00D0AC51 = {
+			isa = PBXGroup;
+			children = (
+				D319D0581B91578A00D0AC51 /* DynamicAnimationExample */,
+				D319D0571B91578A00D0AC51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D319D0571B91578A00D0AC51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D319D0561B91578A00D0AC51 /* DynamicAnimationExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D319D0581B91578A00D0AC51 /* DynamicAnimationExample */ = {
+			isa = PBXGroup;
+			children = (
+				D319D0861B9160F000D0AC51 /* constants.h */,
+				D3293FC21C1D415900740369 /* BezierPathView.h */,
+				D3293FC31C1D415900740369 /* BezierPathView.m */,
+				D319D0821B915AE800D0AC51 /* Objects */,
+				D319D08B1B9170CB00D0AC51 /* Behaviors */,
+				D319D0951B91EFD900D0AC51 /* WeatherView */,
+				D319D0961B91F6A300D0AC51 /* BilliardsView */,
+				D319D0A61B92C57E00D0AC51 /* CrazyFruitGame */,
+				D319D0661B91578A00D0AC51 /* Images.xcassets */,
+				D319D0631B91578A00D0AC51 /* Main.storyboard */,
+				D319D0591B91578A00D0AC51 /* Supporting Files */,
+			);
+			path = DynamicAnimationExample;
+			sourceTree = "<group>";
+		};
+		D319D0591B91578A00D0AC51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D319D05B1B91578A00D0AC51 /* main.m */,
+				D319D05D1B91578A00D0AC51 /* AppDelegate.h */,
+				D319D05E1B91578A00D0AC51 /* AppDelegate.m */,
+				D3293FD21C1D54AC00740369 /* DynamicAnimationExampleViewController.h */,
+				D3293FD31C1D54AC00740369 /* DynamicAnimationExampleViewController.m */,
+				D319D0871B91617600D0AC51 /* PrefixHeader.pch */,
+				D319D05A1B91578A00D0AC51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D319D0821B915AE800D0AC51 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D3293FC51C1D417D00740369 /* Animal.h */,
+				D3293FC61C1D417D00740369 /* Animal.m */,
+				D3293FCB1C1D417D00740369 /* Weather.h */,
+				D3293FCC1C1D417D00740369 /* Weather.m */,
+				D3293FC71C1D417D00740369 /* BilliardsBall.h */,
+				D3293FC81C1D417D00740369 /* BilliardsBall.m */,
+				D3293FC91C1D417D00740369 /* Fruit.h */,
+				D3293FCA1C1D417D00740369 /* Fruit.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		D319D08B1B9170CB00D0AC51 /* Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				D3293FD11C1D41A900740369 /* WeatherBehavior.h */,
+				D319D0891B9170AB00D0AC51 /* WeatherBehavior.m */,
+				D319D0A01B92044400D0AC51 /* BilliardsBehavior.h */,
+				D319D0A11B92044400D0AC51 /* BilliardsBehavior.m */,
+				D319D0AA1B92D51700D0AC51 /* CrazyFruitGameBehavior.h */,
+				D319D0AB1B92D51700D0AC51 /* CrazyFruitGameBehavior.m */,
+			);
+			name = Behaviors;
+			sourceTree = "<group>";
+		};
+		D319D0951B91EFD900D0AC51 /* WeatherView */ = {
+			isa = PBXGroup;
+			children = (
+				D319D0601B91578A00D0AC51 /* WeatherViewController.h */,
+				D319D0611B91578A00D0AC51 /* WeatherViewController.m */,
+				D3293FD51C1D639A00740369 /* SwitchCell.h */,
+				D3293FD61C1D639A00740369 /* SwitchCell.m */,
+				D319D08C1B918C6300D0AC51 /* WeatherSettingViewController.h */,
+				D319D08D1B918C6300D0AC51 /* WeatherSettingViewController.m */,
+			);
+			name = WeatherView;
+			sourceTree = "<group>";
+		};
+		D319D0961B91F6A300D0AC51 /* BilliardsView */ = {
+			isa = PBXGroup;
+			children = (
+				D319D0971B91F94600D0AC51 /* BilliardsView.h */,
+				D319D0981B91F94600D0AC51 /* BilliardsView.m */,
+				D319D09A1B91F97B00D0AC51 /* BilliardsViewController.h */,
+				D319D09B1B91F97B00D0AC51 /* BilliardsViewController.m */,
+			);
+			name = BilliardsView;
+			sourceTree = "<group>";
+		};
+		D319D0A61B92C57E00D0AC51 /* CrazyFruitGame */ = {
+			isa = PBXGroup;
+			children = (
+				D319D0A71B92C5CA00D0AC51 /* CrazyFruitGameViewController.h */,
+				D319D0A81B92C5CA00D0AC51 /* CrazyFruitGameViewController.m */,
+			);
+			name = CrazyFruitGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D319D0551B91578A00D0AC51 /* DynamicAnimationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D319D0791B91578A00D0AC51 /* Build configuration list for PBXNativeTarget "DynamicAnimationExample" */;
+			buildPhases = (
+				D319D0521B91578A00D0AC51 /* Sources */,
+				D319D0531B91578A00D0AC51 /* Frameworks */,
+				D319D0541B91578A00D0AC51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicAnimationExample;
+			productName = HXAnimation;
+			productReference = D319D0561B91578A00D0AC51 /* DynamicAnimationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D319D04E1B91578A00D0AC51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Xin Hong";
+				TargetAttributes = {
+					D319D0551B91578A00D0AC51 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = D319D0511B91578A00D0AC51 /* Build configuration list for PBXProject "DynamicAnimationExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D319D04D1B91578A00D0AC51;
+			productRefGroup = D319D0571B91578A00D0AC51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D319D0551B91578A00D0AC51 /* DynamicAnimationExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D319D0541B91578A00D0AC51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D319D0651B91578A00D0AC51 /* Main.storyboard in Resources */,
+				D319D0671B91578A00D0AC51 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D319D0521B91578A00D0AC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3293FCF1C1D417D00740369 /* Fruit.m in Sources */,
+				D319D0621B91578A00D0AC51 /* WeatherViewController.m in Sources */,
+				D3293FD71C1D639A00740369 /* SwitchCell.m in Sources */,
+				D3293FD41C1D54AC00740369 /* DynamicAnimationExampleViewController.m in Sources */,
+				D319D0AC1B92D51700D0AC51 /* CrazyFruitGameBehavior.m in Sources */,
+				D319D0991B91F94600D0AC51 /* BilliardsView.m in Sources */,
+				D319D09C1B91F97B00D0AC51 /* BilliardsViewController.m in Sources */,
+				D3293FC41C1D415900740369 /* BezierPathView.m in Sources */,
+				D319D05F1B91578A00D0AC51 /* AppDelegate.m in Sources */,
+				D319D08E1B918C6300D0AC51 /* WeatherSettingViewController.m in Sources */,
+				D319D05C1B91578A00D0AC51 /* main.m in Sources */,
+				D3293FD01C1D417D00740369 /* Weather.m in Sources */,
+				D319D0A91B92C5CA00D0AC51 /* CrazyFruitGameViewController.m in Sources */,
+				D3293FCE1C1D417D00740369 /* BilliardsBall.m in Sources */,
+				D3293FCD1C1D417D00740369 /* Animal.m in Sources */,
+				D319D0A21B92044400D0AC51 /* BilliardsBehavior.m in Sources */,
+				D319D08A1B9170AB00D0AC51 /* WeatherBehavior.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D319D0631B91578A00D0AC51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D319D0641B91578A00D0AC51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D319D0771B91578A00D0AC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D319D0781B91578A00D0AC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D319D07A1B91578A00D0AC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = DynamicAnimationExample/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/DynamicAnimationExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DynamicAnimationExample;
+				PRODUCT_NAME = DynamicAnimationExample;
+			};
+			name = Debug;
+		};
+		D319D07B1B91578A00D0AC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = DynamicAnimationExample/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/DynamicAnimationExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DynamicAnimationExample;
+				PRODUCT_NAME = DynamicAnimationExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D319D0511B91578A00D0AC51 /* Build configuration list for PBXProject "DynamicAnimationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D319D0771B91578A00D0AC51 /* Debug */,
+				D319D0781B91578A00D0AC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D319D0791B91578A00D0AC51 /* Build configuration list for PBXNativeTarget "DynamicAnimationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D319D07A1B91578A00D0AC51 /* Debug */,
+				D319D07B1B91578A00D0AC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D319D04E1B91578A00D0AC51 /* Project object */;
+}
